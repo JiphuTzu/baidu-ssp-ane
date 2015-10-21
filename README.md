@@ -17,7 +17,7 @@ iphone4/ios7,iphone5/ios7,小米/android 4测试都ok<br/>
 
 ```
 if(BaiDu.getInstance().supportDevice){
-	BaiDu.getInstance().setKeys("appid","banner id","插屏幕id","视频id");//ios
+	BaiDu.getInstance().setKeys("appid","banner id","插屏幕id","视频id");
 	BaiDu.getInstance().showBanner(BaiDu.BANNER,RelationPosition.BOTTOM_CENTER);
 }
 ```
